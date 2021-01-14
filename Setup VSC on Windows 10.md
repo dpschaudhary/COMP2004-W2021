@@ -24,12 +24,12 @@ At this point you should have successfully installed VS Code and WSL with a Linu
 
 1. Start Visual studio code, go to the extensions. 
    
-   ![Screenshot 2021-01-12 at 11.17.06 AM.png](images/extensionsicon.png)
+   ![VS Code Extensions Icon](assets/extensionsicon.png)
 
 2. Search for "Remote - WSL", use the install button and install it.  Restart Visual Studio Code (VSC) if asked.
 
 3. Now in the lower left corner of VSC there will be an icon like: 
    
-   ![Screenshot 2021-01-12 at 11.20.28 AM.png](images/wslicon.png)
+   ![VS Code Remote SSH Icon](assets/wslicon.png)
 
-4. Click it and, then in the selections that open in the upper centre of the window, pick new window
+4. Click it and, then in the selections that open in the upper centre of the window, pick new window.
