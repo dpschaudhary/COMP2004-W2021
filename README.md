@@ -2,7 +2,7 @@
 
 Files for COMP2004 Winter 2021 term at Memorial University of Newfoundland
 
-- [Links and Notes](Links and Notes.md)
+- [Links and Notes](Links%20and%20Notes.md)
 
 - [Coding Standards](Coding Standards.md)
 
