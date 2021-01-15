@@ -1,6 +1,6 @@
 # CFLAGS=-Wall -Wextra -Wpedantic --debug -lm
 # CC=gcc
-CFLAGS=-Weverything --debug -lm -v
+CFLAGS=-Weverything --debug
 CC=clang
 
 SRC=$(wildcard *.c)
