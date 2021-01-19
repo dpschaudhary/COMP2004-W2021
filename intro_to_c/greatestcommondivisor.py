@@ -6,4 +6,5 @@ def gcd(a, b):
   else:
     return gcd(b, a % b)
 
-print("GCD: " + str(gcd(24, 40)))
+if __name__ == "__main__":
+  print("GCD: " + str(gcd(24, 40)))
