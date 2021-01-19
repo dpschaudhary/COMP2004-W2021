@@ -6,13 +6,13 @@ typedef struct pointnode {
   struct pointnode *nextpoint;
   int x;
   int y;
-} PointNode;
+} point_node;
 
 struct pointnode *palloc(void);
 
-int main() {
-  PointNode *headpoint = 0x0;
-  PointNode *i;
+int main(void) {
+  point_node *headpoint = 0x0;
+  point_node *i;
 
   i = palloc();
   i->x = 5;
@@ -38,7 +38,7 @@ int main() {
   i->nextpoint = NULL;
   headpoint->nextpoint->nextpoint->nextpoint = i;
 
-  PointNode *iter = headpoint;
+  point_node *iter = headpoint;
   while (iter->nextpoint != NULL) {
     printf("%3.2f\n", sqrt(pow(iter->nextpoint->x - iter->x, 2.0) +
                            pow(iter->nextpoint->y - iter->y, 2.0)));
@@ -47,5 +47,5 @@ int main() {
 }
 
 struct pointnode *palloc(void) {
-  return (struct pointnode *)malloc(sizeof(struct pointnode));
+  return (struct pointnode *)malloc(sizeof(point_node));
 }
