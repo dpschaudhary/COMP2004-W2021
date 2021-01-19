@@ -22,6 +22,9 @@
 - [Multithreaded Programming Guid](https://docs.oracle.com/cd/E53394_01/pdf/E54803.pdf)
   A good resource originating with Solaris, now Oracle.  Much more detail than will be covered in the course, but a good reference.
 
+- [C for Python Programmers](http://www.cs.toronto.edu/~patitsas/cs190/c_for_python.html)
+  A short and concise article that will be helpful if you come from a python only background.
+
 # Miscellaneous Interesting Information about OS/Architecture
 
 - [ISSCC2018 - 50 Years of Computer Architecture:From Mainframe CPUs to Neural-Network TPUs - YouTube](https://www.youtube.com/watch?v=NZS2TtWcutc&feature=youtu.be)
