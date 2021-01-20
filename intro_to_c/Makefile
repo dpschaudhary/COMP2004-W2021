@@ -1,5 +1,5 @@
-# CFLAGS=-Wall -Wextra -Wpedantic --debug -lm
-# CC=gcc
+# CFLAGS=-Wall -Wextra -Wpedantic -Wconversion -Wstrict-prototypes -Wmissing-declarations
+# CC=gcc-10
 CFLAGS=-Weverything --debug
 CC=clang
 

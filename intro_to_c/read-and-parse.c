@@ -19,7 +19,7 @@ typedef struct name_list {
 int main(int argc, char *argv[]) {
   
   FILE *fp;
-  int chars_read; 
+
   name_list_t *head = NULL;
   name_list_t *tail = NULL;
 
@@ -31,22 +31,23 @@ int main(int argc, char *argv[]) {
   if( (fp = fopen(argv[1], "r")) == NULL) {
     fprintf(stderr, "Can't open file %s\n",argv[1]);
   } else {
-    char *name_l;
-    char *role_l;
+    char name_l[20];
+    char *role_l = NULL;
+    role_l = (char *)malloc(20*sizeof(char));
     while( fscanf(fp, "%s %s\n", name_l, role_l) != EOF) {
       /* add to the list */
       if( head == NULL) {
         /* first element */
-        head = (name_list_t *)malloc(sizeof(name_list_t));
-        head->name = name_l;
-        head->role = role_l;
+        head = malloc(sizeof(name_list_t));
+        head->name = strdup(name_l);
+        head->role = strdup(role_l);
         head->next = NULL;
         tail = head;
       } else {
         /* all subsequent elements */
         name_list_t *temp_node = (name_list_t *)malloc(sizeof(name_list_t));
-        temp_node->name = name_l;
-        temp_node->role = role_l;
+        temp_node->name = strdup(name_l);
+        temp_node->role = strdup(role_l);
         temp_node->next = NULL;
         tail->next = temp_node;
         tail = temp_node;
