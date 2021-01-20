@@ -5,7 +5,7 @@ CC=clang
 
 SRC=$(wildcard *.c)
 OBJS=$(SRC:%.c=%.o)
-PROGS=helloworld
+PROGS=helloworld read-and-parse
 PROGS+=1.2Celsius-to-Farhenheit 1.3Celsius-to-Farhenheit-FOR 1.6arrays
 PROGS+=4.1grep
 PROGS+=5.1pointers 5.2swap 5.6pointerarrays
