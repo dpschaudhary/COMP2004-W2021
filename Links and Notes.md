@@ -25,6 +25,12 @@
 - [C for Python Programmers](http://www.cs.toronto.edu/~patitsas/cs190/c_for_python.html)
   A short and concise article that will be helpful if you come from a python only background.
 
+- [C library - C++ Reference](https://www.cplusplus.com/reference/clibrary/)
+  Make sure to only use the C library part of this reference
+
+- [C language - cppreference.com](https://en.cppreference.com/w/c/language)
+  Again, ensure that C++ doesn't creep into your program.
+
 # Miscellaneous Interesting Information about OS/Architecture
 
 - [ISSCC2018 - 50 Years of Computer Architecture:From Mainframe CPUs to Neural-Network TPUs - YouTube](https://www.youtube.com/watch?v=NZS2TtWcutc&feature=youtu.be)
