@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
   printf("Hello World!\n");
   char myname[3];
   printf("Enter your name: ");
